@@ -11,7 +11,7 @@ function App() {
       id: Date.now(),
       author: {
         name: "Current User",
-        avatar: "/api/placeholder/50/50"
+        avatar: `https://api.dicebear.com/7.x/avataaars/svg?seed=Current%20User`
       },
       content: newPostContent,
       likes: 0,
